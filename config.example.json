@@ -1,0 +1,26 @@
+{
+  "database": {
+    "connection_string": "host=localhost port=5432 dbname=orion_payments user=postgres password=CHANGE_ME"
+  },
+  "hsm": {
+    "ip": "127.0.0.1",
+    "port": 15001,
+    "source_pek_kcv": "000000",
+    "source_pek_index": 0,
+    "destination_pek_index": 1,
+    "zpk_hex": "CHANGE_ME_32_HEX_CHARS"
+  },
+  "cache": {
+    "refresh_interval_sec": 30
+  },
+  "server": {
+    "port": 7777
+  },
+  "visanet": {
+    "host": "127.0.0.1",
+    "port": 8889
+  },
+  "development": {
+    "enable_network_bypass": false
+  }
+}

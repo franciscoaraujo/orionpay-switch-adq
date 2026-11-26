@@ -1,0 +1,23 @@
+# Build
+build*/
+cmake-build-*/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Dados locais (volume do Postgres)
+data/
+
+# Configuração com credenciais (use config.example.json como modelo)
+config.json
+
+# Estado local
+stan.dat
+
+# Python
+__pycache__/
+*.pyc
+.venv/
