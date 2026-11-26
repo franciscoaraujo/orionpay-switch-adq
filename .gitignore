@@ -21,3 +21,6 @@ stan.dat
 __pycache__/
 *.pyc
 .venv/
+
+# Claude Code (configurações pessoais)
+.claude/settings.local.json
